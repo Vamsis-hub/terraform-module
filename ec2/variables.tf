@@ -11,7 +11,9 @@ variable "instance_name" {
 
 
 variable "tags" {
-  default = {}
+  default = {
+    Name = "web"
+  }
 
   }
   
